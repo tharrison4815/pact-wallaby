@@ -22,7 +22,7 @@ beforeAll(async () => {
       body: "mockBody",
     },
   });
-});
+}, 30000);
 
 it("should return mockBody", async () => {
   const result = await axios.get("http://localhost:1234/mockpath");
