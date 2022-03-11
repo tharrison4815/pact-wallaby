@@ -1,0 +1,30 @@
+{
+  "name": "pact-wallaby",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tharrison4815/pact-wallaby.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tharrison4815/pact-wallaby/issues"
+  },
+  "homepage": "https://github.com/tharrison4815/pact-wallaby#readme",
+  "dependencies": {
+    "@pact-foundation/pact": "^9.17.2",
+    "@types/axios": "^0.14.0",
+    "@types/jest": "^27.4.1",
+    "axios": "^0.26.1",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.3",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.2"
+  }
+}
